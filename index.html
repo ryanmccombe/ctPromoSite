@@ -1,421 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
 
-		<!-- METADATA -->
-		<meta name="description" content="CultureTECH Festival Guide App" />
-		<meta name="keywords" content="CultureTECH, Festival, App, Schedule, Events, Derry, Londonderry, Northern Ireland" />
-		<meta name="author" content="Ryan McCombe" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- METADATA -->
+    <meta name="description" content="CultureTECH Festival Guide App"/>
+    <meta name="keywords" content="CultureTECH, Festival, App, Schedule, Events, Derry, Londonderry, Northern Ireland"/>
+    <meta name="author" content="Ryan McCombe"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
-		<!-- PAGE TITLE -->
-		<title>CultureTECH Festival Guide App</title>
+    <!-- PAGE TITLE -->
+    <title>CultureTECH Festival Guide App</title>
 
-		<!-- FAVICON -->
-		<link rel="icon" href="images/favicons/apple-touch-icon.png" />
-		<link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png" />
-		<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png" />
-		<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png" />
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicons/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png"/>
 
-		<!-- WEB FONTS -->
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" />
+    <!-- WEB FONTS -->
+    <link rel="stylesheet"
+          href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic"/>
 
-		<!-- MAIN STYLES -->
-        <link rel="stylesheet" href="css/vendor.css" />
+    <!-- MAIN STYLES -->
+    <link rel="stylesheet" href="css/vendor.css"/>
 
-		<script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-1.11.1.min.js"></script>
 
-	</head>
+</head>
 
-	<body class="with-preloader">
+<body class="with-preloader">
 
-		<!--
-		=================================
-		PRELOADER
-		=================================
-		-->
-		<div id="preloader" class="preloader">
-			<div class="preloader-inner">
+<!--
+=================================
+PRELOADER
+=================================
+-->
+<div id="preloader" class="preloader">
+    <div class="preloader-inner">
 				<span class="preloader-logo">
-					<img src="images/logos/preloader-logo.png" alt="EOS" />
+					<img src="images/logos/preloader-logo.png" alt="EOS"/>
 					<strong>Loading</strong>
 				</span>
-			</div>
-		</div>
+    </div>
+</div>
 
-		<div id="document" class="document">
+<div id="document" class="document">
 
-			<!--
-			=================================
-			HEADER
-			=================================
-			-->
-			<header class="header-section navbar navbar-fixed-top navbar-default header-floating">
-				<div class="container">
+    <!--
+    =================================
+    HEADER
+    =================================
+    -->
+    <header class="header-section navbar navbar-fixed-top navbar-default header-floating">
+        <div class="container">
 
-					<div class="navbar-header">
+            <div class="navbar-header">
 
-						<!-- RESPONSIVE MENU BUTTON -->
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
+                <!-- RESPONSIVE MENU BUTTON -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-						<!-- NAVBAR LOGO -->
-						<a class="navbar-brand navbar-logo" href="#home"><img src="images/logos/navbar-logo.png" alt="EOS - App Landing Page Template" /></a>
-					</div>
+                <!-- NAVBAR LOGO -->
+                <a class="navbar-brand navbar-logo" href="#home"><img src="images/logos/navbar-logo.png"
+                                                                      alt="EOS - App Landing Page Template"/></a>
+            </div>
 
-					<div id="navigation" class="navbar-collapse collapse">
+            <div id="navigation" class="navbar-collapse collapse">
 
-						<!-- NAVIGATION LINKS -->
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#home">Download</a></li>
-							<li><a href="#features">Features</a></li>
-							<li><a href="#screenshots">Screenshots</a></li>
-						</ul>
+                <!-- NAVIGATION LINKS -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Download</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#screenshots">Screenshots</a></li>
+                </ul>
 
-					</div>
+            </div>
 
-				</div>
-			</header>
+        </div>
+    </header>
 
-			<!--
-			=================================
-			HERO SECTION
-			=================================
-			-->
-			<section id="home" class="hero-section hero-layout-3 section section-inverse-color parallax-background" data-stellar-background-ratio="0.4">
+    <!--
+    =================================
+    HERO SECTION
+    =================================
+    -->
+    <section id="home" class="hero-section hero-layout-3 section section-inverse-color parallax-background"
+             data-stellar-background-ratio="0.4">
 
-				<!-- BACKGROUND OVERLAY -->
-				<div class="black-background-overlay"></div>
+        <!-- BACKGROUND OVERLAY -->
+        <div class="black-background-overlay"></div>
 
-				<div class="container">
+        <div class="container">
 
-					<div class="hero-content">
+            <div class="hero-content">
 
-						<!-- HERO TEXT -->
-						<div class="hero-text wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <!-- HERO TEXT -->
+                <div class="hero-text wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
 
-							<!-- LOGO -->
-							<img src="images/logos/hero-logo.png" alt="EOS - App Landing Page Template" class="hero-logo" />
+                    <!-- LOGO -->
+                    <img src="images/logos/hero-logo.png" alt="EOS - App Landing Page Template" class="hero-logo"/>
 
-							<!-- TAGLINE -->
-							<h1 class="hero-title">Your Complete Festival Guide for <strong>CultureTECH 2015</strong></h1>
+                    <!-- TAGLINE -->
+                    <h1 class="hero-title">Your Complete Festival Guide for <strong>CultureTECH 2015</strong></h1>
 
-							<!-- HERO DESCRIPTION -->
-                            <p class="hero-description">Register for over 100 events and sessions, navigate through the city, and keep the contacts you'll need all in one place</p>
+                    <!-- HERO DESCRIPTION -->
+                    <p class="hero-description">Register for over 100 events and sessions, navigate through the city,
+                        and keep the contacts you'll need all in one place</p>
 
-							<!-- DOWNLOAD BUTTONS -->
-							<p class="download-buttons">
-								<a href="#" class="btn btn-app-download btn-primary">
-									<i class="fa fa-android"></i>
-									<strong>Download App</strong> <span>Coming Soon</span>
-								</a>
-							</p>
+                    <!-- DOWNLOAD BUTTONS -->
+                    <p class="download-buttons">
+                        <a href="#" class="btn btn-app-download btn-primary">
+                            <i class="fa fa-android"></i>
+                            <strong>Download App</strong> <span>Coming Soon</span>
+                        </a>
+                    </p>
 
-						</div>
+                </div>
 
-						<!-- HERO IMAGES -->
-						<div class="hero-images">
+                <!-- HERO IMAGES -->
+                <div class="hero-images">
 
-							<img src="images/contents/hero-phone-back.png" class="hero-image phone-image-double phone-image-left wow fadeInRight" alt="" data-wow-duration="1s" data-wow-delay="0.5s" />
-							<img src="images/contents/hero-phone-front.png" class="hero-image phone-image-double phone-image-right phone-image-front wow fadeInRight" alt="" data-wow-duration="1s" data-wow-delay="1.5s" />
+                    <img src="images/contents/hero-phone-back.png"
+                         class="hero-image phone-image-double phone-image-left wow fadeInRight" alt=""
+                         data-wow-duration="1s" data-wow-delay="0.5s"/>
+                    <img src="images/contents/hero-phone-front.png"
+                         class="hero-image phone-image-double phone-image-right phone-image-front wow fadeInRight"
+                         alt="" data-wow-duration="1s" data-wow-delay="1.5s"/>
 
-						</div>
-					</div>
+                </div>
+            </div>
 
-				</div>
-			</section>
+        </div>
+    </section>
 
-			<!--
-			=================================
-			FEATURES SECTION
-			=================================
-			-->
-			<section id="features" class="features-section section">
-				<div class="container">
+    <!--
+    =================================
+    FEATURES SECTION
+    =================================
+    -->
+    <section id="features" class="features-section section">
+        <div class="container">
 
-					<!-- SECTION HEADING -->
-					<h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">Close Up Features</h2>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 text-center">
-							<p class="wow fadeIn" data-wow-duration="1s">Use this section to showcase up to 4 core features from your app. You can include a short description for each feature block.</p>
-						</div>
-					</div>
+            <!-- SECTION HEADING -->
+            <h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">Closer Look</h2>
 
-					<div class="featuers-list-wrapper row">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <p class="wow fadeIn" data-wow-duration="1s">A quirky, intimate and unique gathering of speakers,
+                        artists, performers and industry professionals from digital media, technology, music and the
+                        arts.</p>
+                </div>
+            </div>
 
-						<!-- FEATURES LEFT -->
-						<div class="col-md-4 col-sm-6">
-							<ul class="features-list features-list-left wow fadeInLeft" data-wow-duration="1s">
-								<li class="features-list-item">
-									<h5>All the Events</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus leo mattis metus condimentum sollicitudin.</p>
-								</li>
-								<li class="features-list-item">
-									<h5>Navigate the City</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus leo mattis metus condimentum sollicitudin.</p>
-								</li>
-							</ul>
-						</div>
+            <div class="featuers-list-wrapper row">
 
-						<!-- FEATURES RIGHT -->
-						<div class="col-md-4 col-md-push-4 col-sm-6">
-							<ul class="features-list features-list-right wow fadeInRight" data-wow-duration="1s">
-								<li class="features-list-item">
-									<h5>Complete Visitor's Guide</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus leo mattis metus condimentum sollicitudin.</p>
-								</li>
-								<li class="features-list-item">
-									<h5>Talent & Partner Directory</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dapibus leo mattis metus condimentum sollicitudin.</p>
-								</li>
-							</ul>
-						</div>
+                <!-- FEATURES LEFT -->
+                <div class="col-md-4 col-sm-6">
+                    <ul class="features-list features-list-left wow fadeInLeft" data-wow-duration="1s">
+                        <li class="features-list-item">
+                            <h5>All the Events</h5>
 
-						<!-- CLOSE UP PHONE IMAGE -->
-						<div class="col-md-4 col-md-pull-4 text-center">
-							<img src="images/contents/features-phone.png" class="features-image wow fadeInUp" alt="" data-wow-duration="1s" />
-						</div>
+                            <p>Experience everything that is happening - get the details of the 100+ events, register to
+                                attend, and set reminders so you don't miss a thing.</p>
+                        </li>
+                        <li class="features-list-item">
+                            <h5>Navigate the City</h5>
 
-					</div>
+                            <p>Find your way with maps, directions and contact info for every location in the historic
+                                city.</p>
+                        </li>
+                    </ul>
+                </div>
 
-				</div>
-			</section>
+                <!-- FEATURES RIGHT -->
+                <div class="col-md-4 col-md-push-4 col-sm-6">
+                    <ul class="features-list features-list-right wow fadeInRight" data-wow-duration="1s">
+                        <li class="features-list-item">
+                            <h5>Complete Visitor's Guide</h5>
 
-			<!--
-			=================================
-			FEATURES WITH ICONS SECTION
-			=================================
-			-->
-			<section id="features-icons" class="features-icons-section section">
-				<div class="container">
+                            <p>Everything you need to know about the UK's inaugural City of Culture - getting here,
+                                where to stay, and getting around.</p>
+                        </li>
+                        <li class="features-list-item">
+                            <h5>Talent & Partner Directory</h5>
 
-					<div class="row">
-						<div class="col-md-8 col-md-push-4">
+                            <p>The complete directory of all the partners and talent that make CultureTECH possible.</p>
+                        </li>
+                    </ul>
+                </div>
 
-							<!-- SECTION HEADING -->
-							<h2 class="section-heading wow fadeIn" data-wow-duration="1s">Features with Icons</h2>
-							<p class="wow fadeIn" data-wow-duration="1s">Need more feature details in maybe 6 or 8 items? You can use this section to put your features summary with short descriptions and retina icons for each item</p>
+                <!-- CLOSE UP PHONE IMAGE -->
+                <div class="col-md-4 col-md-pull-4 text-center">
+                    <img src="images/contents/features-phone.png" class="features-image wow fadeInUp" alt=""
+                         data-wow-duration="1s"/>
+                </div>
 
-							<!-- FEATURES LIST WITH ICONS -->
-							<div class="features-icon-list row wow fadeIn" data-wow-duration="1s">
-								<div class="features-icon-list-item col-sm-6">
-									<i class="icon-eye"></i>
-									<h5>No Advertisements</h5>
-									<p>Excepteur sint occaecat cupidatat non proident. You can use this section</p>
-								</div>
-								<div class="features-icon-list-item col-sm-6">
-									<i class="icon-cup"></i>
-									<h5>No Data Required</h5>
-									<p>Requires no data, and will You can use this section to put your features</p>
-								</div>
-								<div class="clear"></div>
-								<div class="features-icon-list-item col-sm-6">
-									<i class="icon-equalizer"></i>
-									<h5>Set Reminders</h5>
-									<p>Excepteur sint occaecat cupidatat non proident. Need more feature details</p>
-								</div>
-								<div class="features-icon-list-item col-sm-6">
-									<i class="icon-diamond"></i>
-									<h5>Event Registration</h5>
-									<p>Excepteur sint occaecat cupidatat non proident. Excepteur sint occaecat</p>
-								</div>
-								<div class="clear"></div>
-                                <div class="features-icon-list-item col-sm-6">
-                                    <i class="icon-equalizer"></i>
-                                    <h5>Local Contacts</h5>
-                                    <p>Excepteur sint occaecat cupidatat non proident. Need more feature</p>
-                                </div>
-                                <div class="features-icon-list-item col-sm-6">
-                                    <i class="icon-diamond"></i>
-                                    <h5>Festival Info</h5>
-                                    <p>Excepteur sint occaecat cupidatat non proident. Excepteur sint occaecat</p>
-                                </div>
-                                <div class="clear"></div>
-							</div>
-						</div>
+            </div>
 
-						<!-- PHONE IMAGE -->
-						<div class="col-md-4 col-md-pull-8 text-center">
-							<img src="images/contents/features-icons-phone.png" class="features-icons-image wow fadeInLeft" alt="" data-wow-duration="1s" />
-						</div>
-					</div>
+        </div>
+    </section>
 
-				</div>
-			</section>
+    <!--
+    =================================
+    FEATURES WITH ICONS SECTION
+    =================================
+    -->
+    <section id="features-icons" class="features-icons-section section">
+        <div class="container">
 
+            <div class="row">
+                <div class="col-md-8 col-md-push-4">
 
+                    <!-- SECTION HEADING -->
+                    <h2 class="section-heading wow fadeIn" data-wow-duration="1s">More Features</h2>
 
-			<!--
-			=================================
-			SCREENSHOTS SECTION
-			=================================
-			-->
-			<section id="screenshots" class="screenshots-section section">
-				<div class="container">
+                    <p class="wow fadeIn" data-wow-duration="1s">The Festival Guide is your complete companion for all
+                        that's happening and what you need to know to get around, join in, and have a hassle-free
+                        experience. </p>
 
-					<h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">Screenshots</h2>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 text-center">
-							<p class="wow fadeIn" data-wow-duration="1s">Showcase your app screenshots into a nice carousel below. You can add as many screenshots as you want.</p>
-						</div>
-					</div>
+                    <!-- FEATURES LIST WITH ICONS -->
+                    <div class="features-icon-list row wow fadeIn" data-wow-duration="1s">
+                        <div class="features-icon-list-item col-sm-6">
+                            <i class="fa fa-smile-o"></i>
+                            <h5>No Advertisements</h5>
 
-					<div class="sreenshots-carousel">
-						<ul class="screenshot-images owl-carousel wow bounceIn" data-wow-duration="1s">
-							<li>
-								<a href="images/contents/screenshot-2.jpg" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
-									<div class="screenshot-image-inner">
-										<img src="images/contents/screenshot-2.jpg" alt="screenshot" />
-										<div class="hover"><i class="icon-magnifier-add"></i></div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="images/contents/screenshot-3.jpg" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
-									<div class="screenshot-image-inner">
-										<img src="images/contents/screenshot-3.jpg" alt="screenshot" />
-										<div class="hover"><i class="icon-magnifier-add"></i></div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="images/contents/screenshot-8.jpg" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
-									<div class="screenshot-image-inner">
-										<img src="images/contents/screenshot-8.jpg" alt="screenshot" />
-										<div class="hover"><i class="icon-magnifier-add"></i></div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="images/contents/screenshot-5.jpg" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
-									<div class="screenshot-image-inner">
-										<img src="images/contents/screenshot-5.jpg" alt="screenshot" />
-										<div class="hover"><i class="icon-magnifier-add"></i></div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="images/contents/screenshot-1.jpg" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
-									<div class="screenshot-image-inner">
-										<img src="images/contents/screenshot-1.jpg" alt="screenshot" />
-										<div class="hover"><i class="icon-magnifier-add"></i></div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="images/contents/screenshot-7.jpg" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
-									<div class="screenshot-image-inner">
-										<img src="images/contents/screenshot-7.jpg" alt="screenshot" />
-										<div class="hover"><i class="icon-magnifier-add"></i></div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="images/contents/screenshot-6.jpg" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
-									<div class="screenshot-image-inner">
-										<img src="images/contents/screenshot-6.jpg" alt="screenshot" />
-										<div class="hover"><i class="icon-magnifier-add"></i></div>
-									</div>
-								</a>
-							</li>
-							<li>
-								<a href="images/contents/screenshot-4.jpg" class="screenshot-image" data-lightbox-gallery="screenshots-gallery">
-									<div class="screenshot-image-inner">
-										<img src="images/contents/screenshot-4.jpg" alt="screenshot" />
-										<div class="hover"><i class="icon-magnifier-add"></i></div>
-									</div>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
+                            <p>No payment, no pop-ups, no ads, no hassle - it's simply free</p>
+                        </div>
+                        <div class="features-icon-list-item col-sm-6">
+                            <i class="fa fa-wifi"></i>
+                            <h5>No Data Required</h5>
+
+                            <p>Basic usage requires no data, and we'll warn you if something does</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="features-icon-list-item col-sm-6">
+                            <i class="fa fa-bell"></i>
+                            <h5>Set Reminders</h5>
+
+                            <p>Set custom reminders on your device for any event you choose</p>
+                        </div>
+                        <div class="features-icon-list-item col-sm-6">
+                            <i class="fa fa-pencil"></i>
+                            <h5>Event Registration</h5>
+
+                            <p>Some events require registration - we'll help you with that</p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="features-icon-list-item col-sm-6">
+                            <i class="fa fa-car"></i>
+                            <h5>Local Contacts</h5>
+
+                            <p>From taxis to restaurants - a directory of local contacts has you covered</p>
+                        </div>
+                        <div class="features-icon-list-item col-sm-6">
+                            <i class="fa fa-users"></i>
+                            <h5>Festival Info</h5>
+
+                            <p>Go deeper with background information on the talent and locations involved</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <!-- PHONE IMAGE -->
+                <div class="col-md-4 col-md-pull-8 text-center">
+                    <img src="images/contents/features-icons-phone.png" class="features-icons-image wow fadeInLeft"
+                         alt="" data-wow-duration="1s"/>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 
+    <!--
+    =================================
+    SCREENSHOTS SECTION
+    =================================
+    -->
+    <section id="screenshots" class="screenshots-section section">
+        <div class="container">
 
-			<!--
-			=================================
-			CONTACT SECTION
-			=================================
+            <h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">Screenshots</h2>
 
-			<section id="contact" class="contact-section section collapse">
-				<div class="container">
-					<h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">Get in Touch</h2>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 text-center">
-							<p class="animated wow fadeIn" data-wow-duration="1s">Have feedback, suggestion, or any thought about our app? Feel free to contact us anytime, we will get back to you in 24 hours.</p>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <p class="wow fadeIn" data-wow-duration="1s">A clean design puts the information you
+                        need front and centre.</p>
+                </div>
+            </div>
 
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3">
-							<form action="modules/send-email.php" method="post" id="contact-form" class="contact-form wow fadeInUp" data-wow-duration="1s" role="form">
-								<div class="form-validation alert"></div>
-								<div class="form-group">
-									<input type="text" class="form-control" name="name" placeholder="Your Name" autocomplete="off">
-								</div>
-								<div class="form-group">
-									<input type="email" class="form-control" name="email" placeholder="Your Email Address" autocomplete="off">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" name="subject" placeholder="Subject" autocomplete="off">
-								</div>
-								<div class="form-group">
-									<textarea rows="4" class="form-control" name="message" placeholder="Message"></textarea>
-								</div>
-								<div class="form-group">
-									<button type="submit" class="btn btn-primary btn-block" data-loading-text="Loading...">Send Message</button>
-								</div>
-							</form>
-						</div>
-					</div>
+            <div class="sreenshots-carousel">
+                <ul class="screenshot-images owl-carousel wow bounceIn" data-wow-duration="1s">
+                    <li>
+                        <a href="images/contents/screenshot-2.jpg" class="screenshot-image"
+                           data-lightbox-gallery="screenshots-gallery">
+                            <div class="screenshot-image-inner">
+                                <img src="images/contents/screenshot-2.jpg" alt="screenshot"/>
 
-				</div>
-			</section>
+                                <div class="hover"><i class="icon-magnifier-add"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/contents/screenshot-3.jpg" class="screenshot-image"
+                           data-lightbox-gallery="screenshots-gallery">
+                            <div class="screenshot-image-inner">
+                                <img src="images/contents/screenshot-3.jpg" alt="screenshot"/>
 
-			-->
+                                <div class="hover"><i class="icon-magnifier-add"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/contents/screenshot-5.jpg" class="screenshot-image"
+                           data-lightbox-gallery="screenshots-gallery">
+                            <div class="screenshot-image-inner">
+                                <img src="images/contents/screenshot-5.jpg" alt="screenshot"/>
 
-			<!--
-			=================================
-			FOOTER SECTION
-			=================================
+                                <div class="hover"><i class="icon-magnifier-add"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/contents/screenshot-8.jpg" class="screenshot-image"
+                           data-lightbox-gallery="screenshots-gallery">
+                            <div class="screenshot-image-inner">
+                                <img src="images/contents/screenshot-8.jpg" alt="screenshot"/>
+
+                                <div class="hover"><i class="icon-magnifier-add"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/contents/screenshot-1.jpg" class="screenshot-image"
+                           data-lightbox-gallery="screenshots-gallery">
+                            <div class="screenshot-image-inner">
+                                <img src="images/contents/screenshot-1.jpg" alt="screenshot"/>
+
+                                <div class="hover"><i class="icon-magnifier-add"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/contents/screenshot-7.jpg" class="screenshot-image"
+                           data-lightbox-gallery="screenshots-gallery">
+                            <div class="screenshot-image-inner">
+                                <img src="images/contents/screenshot-7.jpg" alt="screenshot"/>
+
+                                <div class="hover"><i class="icon-magnifier-add"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/contents/screenshot-6.jpg" class="screenshot-image"
+                           data-lightbox-gallery="screenshots-gallery">
+                            <div class="screenshot-image-inner">
+                                <img src="images/contents/screenshot-6.jpg" alt="screenshot"/>
+
+                                <div class="hover"><i class="icon-magnifier-add"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/contents/screenshot-4.jpg" class="screenshot-image"
+                           data-lightbox-gallery="screenshots-gallery">
+                            <div class="screenshot-image-inner">
+                                <img src="images/contents/screenshot-4.jpg" alt="screenshot"/>
+
+                                <div class="hover"><i class="icon-magnifier-add"></i></div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
 
-			<footer class="footer-section section">
+    <!--
+    =================================
+    CONTACT SECTION
+    =================================
 
-				<a href="#contact" class="contact-toggle" data-toggle="collapse"><i class="icon-envelope"></i></a>
-				<div class="container">
-					<p class="download-buttons wow fadeIn" data-wow-duration="1s">
-						<a href="#" class="btn btn-app-download btn-primary">
-							<i class="fa fa-android"></i>
-							<strong>Download App</strong> <span>Coming Soon</span>
-						</a>
-					</p>
-					<div class="copyright">Copyright &copy; Ryan McCombe, All rights reserved</div>
-				</div>
-			</footer>
+    <section id="contact" class="contact-section section collapse">
+        <div class="container">
+            <h2 class="section-heading text-center wow fadeIn" data-wow-duration="1s">Get in Touch</h2>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <p class="animated wow fadeIn" data-wow-duration="1s">Have feedback, suggestion, or any thought about our app? Feel free to contact us anytime, we will get back to you in 24 hours.</p>
 
-			-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <form action="modules/send-email.php" method="post" id="contact-form" class="contact-form wow fadeInUp" data-wow-duration="1s" role="form">
+                        <div class="form-validation alert"></div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" placeholder="Your Name" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email Address" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" class="form-control" name="message" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block" data-loading-text="Loading...">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
-		</div>
+        </div>
+    </section>
 
-        <script src="js/vendor.js"></script>
+    -->
 
-        <script src="js/bootstrap.min.js"></script>
-		<script src="js/retina.min.js"></script>
-		<script src="js/smoothscroll.min.js"></script>
-		<script src="js/wow.min.js"></script>
-		<script src="js/jquery.nav.min.js"></script>
-		<script src="js/nivo-lightbox.min.js"></script>
-		<script src="js/jquery.stellar.min.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/script.js"></script>
+    <!--
+    =================================
+    FOOTER SECTION
+    =================================
 
-	</body>
+
+    <footer class="footer-section section">
+
+        <a href="#contact" class="contact-toggle" data-toggle="collapse"><i class="icon-envelope"></i></a>
+        <div class="container">
+            <p class="download-buttons wow fadeIn" data-wow-duration="1s">
+                <a href="#" class="btn btn-app-download btn-primary">
+                    <i class="fa fa-android"></i>
+                    <strong>Download App</strong> <span>Coming Soon</span>
+                </a>
+            </p>
+            <div class="copyright">Copyright &copy; Ryan McCombe, All rights reserved</div>
+        </div>
+    </footer>
+
+    -->
+
+</div>
+
+<script src="js/vendor.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/smoothscroll.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.nav.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
 
 </html>
